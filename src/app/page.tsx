@@ -1,13 +1,19 @@
 "use client"
-import ContactUsCompleteForm from "@/components/contact-us-complete-form";
-import ContactUsForm from "@/components/contact-us-form";
-import Image from "next/image";
+import Header from '@/components/header'
+import ProjectElement from '@/components/portfolio'
+import ContactUs from '@/components/contact-us'
 
 export default function Home() {
   return (
     <>
-    <h1 className="text-red-600">Hello s there </h1>
-    <ContactUsCompleteForm/>
+    <div className={'px-12'}>
+    <Header/>
+    <ProjectElement/>
+    <ContactUs/>
+
+    </div>
+   
+    
     </>
   );
 }

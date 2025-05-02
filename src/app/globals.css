@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -25,4 +25,64 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+.portfolio-section-title {
+  font-weight: 700;
+  background: linear-gradient(90deg, #FF1E47 0.36%, #F9D949 99.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactForm input, textarea {
+
+  background-color: #FFFFFF26 !important;
+  color: #FFFFFFB2;
+  padding: 16px 8px;
+  outline: none;
+
+
+}
+
+
+ /* telephone  */
+ .react-tel-input .selected-flag {
+  border: 1px solid #FFFFFF26 !important;
+  border-radius: 12px !important;
+  padding: 4px 16px !important;
+  margin-right: 8px !important;
+  /*border: none!important;*/
+  /*outline: none!important;*/
+
+}
+
+.react-tel-input .form-control {
+  margin-left: 24px !important;
+  width: -webkit-fill-available !important;
+
+}
+
+.react-tel-input {
+  border-radius: 8px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border-radius: 8px !important;
+  border: 1px solid #383c4a !important;
+  /*outline: none!important;*/
+}
+.react-tel-input .country-list .country {
+  width: fit-content !important;
+  padding: 7px 9px;
+}
+.react-tel-input .country-list .country.highlight {
+  background-color: #383c4a;
+  color:#FFFFFF26;
+  width: fit-content!important;
+}
+
+.flag-dropdown {
+  /* color: #FFFFFF26; */
+}
 
