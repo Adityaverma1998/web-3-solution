@@ -5,7 +5,9 @@ import ContactUs from '@/components/contact-us'
 import OurTechStack from '@/components/our-tech-stack'
 import { techStack } from '@/constant'
 import Footer from '@/components/footer'
-import HeroSectionComponents from '@/components/hero-section'
+import HeroSectionComponents from '@/components/hero-section';
+import CoinsMarquee from '@/components/coins-marquee'
+import ServiceSection from '@/components/service-section'
 export default function Home() {
   return (
     <>
@@ -13,7 +15,10 @@ export default function Home() {
         <Header />
         <HeroSectionComponents/>
         <ProjectElement />
+        <CoinsMarquee/>
+        <ServiceSection/>
         <div className={'pb-24'}>
+
         <OurTechStack techStack={techStack} />
 
         </div>
