@@ -11,7 +11,7 @@ import ServiceSection from '@/components/service-section'
 export default function Home() {
   return (
     <>
-      <div className={'px-12'}>
+      <div className={'px-12 overflow-x-hidden'}>
         <Header />
         <HeroSectionComponents/>
         <ProjectElement />

@@ -86,10 +86,7 @@ body {
   /* color: #FFFFFF26; */
 }
 
-.tech-stack {
-  position: relative;
-  overflow: hidden; /* This clips ::before and ::after */
-}
+
 
 .tech-stack::after {
   overflow: visible;
