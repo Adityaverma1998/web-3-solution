@@ -18,7 +18,7 @@ interface TechStack {
 const OurTechStack: React.FC<TechStack> = ({techStack}) => {
 
 
-    return (<div className={'container w-full pt-28 relative tech-stack'}>
+    return (<div className={'container w-full pt-28 relative tech-stack '}>
         {/*<div className={' flex justify-center'}>*/}
         {/*    <p className={'font-montserrat text-center text-sm uppercase tracking-[3px] trending-section-title'}>*/}
         {/*        <span>*/}

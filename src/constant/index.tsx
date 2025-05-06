@@ -110,62 +110,91 @@ export const projects: Project[] = [
 export const techStack = [
     {
         expertise: 'Front-end',
-        techs: [{img: 'nextjs.svg', toolTip: 'Nextjs'}, {
+        techs: [{ img: 'nextjs.svg', toolTip: 'Nextjs' }, {
             img: 'reactjs.svg',
             toolTip: 'Reactjs'
-        }, {img: 'angular-icon-1.svg', toolTip: 'Angularjs'}, {
+        }, { img: 'angular-icon-1.svg', toolTip: 'Angularjs' }, {
             img: 'bootstrap.svg',
             toolTip: 'Bootstrap'
-        }, {img: 'vuejs.svg', toolTip: 'Vuejs'}],
+        }, { img: 'vuejs.svg', toolTip: 'Vuejs' }],
     },
     {
         expertise: 'Back-end',
-        techs: [{img: 'nodejs-icon.svg', toolTip: 'Nodejs'}, {
+        techs: [{ img: 'nodejs-icon.svg', toolTip: 'Nodejs' }, {
             img: 'springboot.svg',
             toolTip: 'Springboot'
-        }, {img: 'expressjs-icon.svg', toolTip: 'Expressjs'}, {
+        }, { img: 'expressjs-icon.svg', toolTip: 'Expressjs' }, {
             img: 'laravel-icon.svg',
             toolTip: 'Laravel'
-        }, {img: 'solidity.svg', toolTip: 'Solidity'}]
+        }, { img: 'solidity.svg', toolTip: 'Solidity' }]
     },
     {
         expertise: 'Project Management',
-        techs: [{img: 'asana-logo.svg', toolTip: 'Asana'}, {
+        techs: [{ img: 'asana-logo.svg', toolTip: 'Asana' }, {
             img: 'jira.svg',
             toolTip: 'Jira'
-        }, {img: 'miro.png', toolTip: 'Miro'}, {
+        }, { img: 'miro.png', toolTip: 'Miro' }, {
             img: 'zoho-projects.png',
             toolTip: 'Zoho Projects'
-        }, {img: 'whimsical-icon.png', toolTip: 'Whimsical'}]
+        }, { img: 'whimsical-icon.png', toolTip: 'Whimsical' }]
     },
     {
         expertise: 'Mobile App Development',
-        techs: [{img: 'react-native-1.svg', toolTip: 'React Native'}, {
+        techs: [{ img: 'react-native-1.svg', toolTip: 'React Native' }, {
             img: 'flutter-icon.svg',
             toolTip: 'Flutter'
-        }, {img: 'swift-icon.svg', toolTip: 'Swift'}, {
+        }, { img: 'swift-icon.svg', toolTip: 'Swift' }, {
             img: 'kotlin.svg',
             toolTip: 'Kotlin'
-        }, {img: 'android.svg', toolTip: 'Android'}]
+        }, { img: 'android.svg', toolTip: 'Android' }]
     },
     {
         expertise: 'Database',
-        techs: [{img: 'PostgreSQL.svg', toolTip: 'PostgreSQL'}, {
+        techs: [{ img: 'PostgreSQL.svg', toolTip: 'PostgreSQL' }, {
             img: 'mySql.svg',
             toolTip: 'MySql'
-        }, {img: 'mongoDB.svg', toolTip: 'MongoDB'}, {
+        }, { img: 'mongoDB.svg', toolTip: 'MongoDB' }, {
             img: 'sqlite-icon.svg',
             toolTip: 'SQLite'
-        }, {img: 'firebase.svg', toolTip: 'Firebase'}]
+        }, { img: 'firebase.svg', toolTip: 'Firebase' }]
     },
     {
         expertise: 'Servers',
-        techs: [{img: 'apache.svg', toolTip: 'Apache'}, {
+        techs: [{ img: 'apache.svg', toolTip: 'Apache' }, {
             img: 'nginx-icon.svg',
             toolTip: 'Nginx'
-        }, {img: 'docker.svg', toolTip: 'Docker'}, {
+        }, { img: 'docker.svg', toolTip: 'Docker' }, {
             img: 'aws.svg',
             toolTip: 'AWS EC2'
-        }, {img: 'digital-ocean.svg', toolTip: 'DigitalOcean'}]
+        }, { img: 'digital-ocean.svg', toolTip: 'DigitalOcean' }]
     }
+];
+
+export interface IService {
+    heading: string;
+    description: string;
+    services: string[];
+}
+
+export const services: IService[] = [
+    {
+        heading: "Blockchain Development", description: 'Lorem ipsum dolor sit amet consectetur. Vulputate amet metus et aliquam. Sit feugiat duis proin hendrerit faucibus tempus varius ut volutpat. A venenatis senectus auctor aliquam donec nibh aliquet nulla. Vel nisl consequat est in rhoncus urna. Dolor diam mauris nec ut ac nibh.',
+        services: ['services', 'Blockchain Frame works', 'Layer 1 & Layer 2 Solutions', 'Enterprise Blockchain', 'Smart Contract', 'Tokenization']
+
+    },
+    {
+        heading: "Blockchain Development", description: 'Lorem ipsum dolor sit amet consectetur. Vulputate amet metus et aliquam. Sit feugiat duis proin hendrerit faucibus tempus varius ut volutpat. A venenatis senectus auctor aliquam donec nibh aliquet nulla. Vel nisl consequat est in rhoncus urna. Dolor diam mauris nec ut ac nibh.',
+        services: ['services', 'Blockchain Frame works', 'Layer 1 & Layer 2 Solutions', 'Enterprise Blockchain', 'Smart Contract', 'Tokenization']
+
+    },
+    {
+        heading: "Blockchain Development", description: 'Lorem ipsum dolor sit amet consectetur. Vulputate amet metus et aliquam. Sit feugiat duis proin hendrerit faucibus tempus varius ut volutpat. A venenatis senectus auctor aliquam donec nibh aliquet nulla. Vel nisl consequat est in rhoncus urna. Dolor diam mauris nec ut ac nibh.',
+        services: ['services', 'Blockchain Frame works', 'Layer 1 & Layer 2 Solutions', 'Enterprise Blockchain', 'Smart Contract', 'Tokenization']
+
+    },
+    {
+        heading: "Blockchain Development", description: 'Lorem ipsum dolor sit amet consectetur. Vulputate amet metus et aliquam. Sit feugiat duis proin hendrerit faucibus tempus varius ut volutpat. A venenatis senectus auctor aliquam donec nibh aliquet nulla. Vel nisl consequat est in rhoncus urna. Dolor diam mauris nec ut ac nibh.',
+        services: ['services', 'Blockchain Frame works', 'Layer 1 & Layer 2 Solutions', 'Enterprise Blockchain', 'Smart Contract', 'Tokenization']
+
+    },
 ]
