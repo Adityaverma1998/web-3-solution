@@ -59,6 +59,16 @@ const validationSchema = yup.object().shape({
 
 });
 
+interface MyValues {
+    name: string,
+    email: string,
+    message: string,
+    companyName: string,
+    phone: string,
+    category: string,
+    requestOrigin: string,
+    projectCategory: string,
+}
 
 const ContactUsForm = (props: any) => {
     const {nextPage, category} = props;
@@ -155,8 +165,7 @@ const ContactUsForm = (props: any) => {
             phone: '',
             category: 'blockchain',
             requestOrigin: '',
-            // projectCategory:params.get('q') ?? Categories[0].items[0],
-
+            projectCategory: ''
         }, validationSchema: validationSchema, validateOnMount:false, validateOnBlur:true, validateOnChange:true,// Pass the validation schema
         onSubmit: async (values, formikHelpers) => {
 

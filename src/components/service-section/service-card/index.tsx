@@ -35,7 +35,7 @@ const ServiceCard = ({ heading, description, services }: IService) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-10 w-full max-w-6xl">
 
         {services.length > 0 && services.map((item: string, index: number) => {
-          return (<ServiceItems text={item} />
+          return (<ServiceItems key={index} text={item} />
           )
         })}
       </div>
