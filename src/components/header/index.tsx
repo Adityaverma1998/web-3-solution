@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
+import { Link, Element } from 'react-scroll';
+
 
 const navItems: string[] = ['Service', 'Industries', 'Cases', 'Company', 'Contacts'];
 
@@ -51,9 +53,13 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          <Link to="contact-us" smooth={true} duration={500}       offset={10} 
+          >
+
           <button className="ml-6 bg-[#075199] text-white py-2 px-6 rounded-[8px]">
             Contact Us
           </button>
+          </Link>
         </nav>
       )}
 
@@ -77,9 +83,12 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-[#075199] text-white py-2 px-6 rounded-[8px] w-fit mt-4">
+          <Link to="contact-us" smooth={true} duration={500}>
+
+          <div className="bg-[#075199] text-white py-2 px-6 rounded-[8px] w-fit mt-4">
             Contact Us
-          </button>
+          </div>
+          </Link>
         </div>
       )}
     </header>

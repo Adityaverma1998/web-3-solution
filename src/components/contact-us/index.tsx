@@ -36,8 +36,8 @@ const ContactUs = () => {
                             {/* <PointsList /> */}
                         </div>
                         <div
-                            className={'flex-col md:flex-row justify-between md:py-8 lg:gap-10 max-w-max'}>
-                            <div className={'pb-2 flex gap-2 w-fit'}>
+                            className={'flex-col md:flex-row justify-center md:py-8  max-w-max'}>
+                            <div className={'pb-2 flex gap-2 w-fit justify-center' }>
                                 <div className={'rounded-lg border border-gray-400 p-2 flex flex-col'}>
                                     <Image src={'/images/team/omar.png'} className={'rounded-lg'} width={120}
                                            height={200} alt={'placeholder'}/>
@@ -45,21 +45,15 @@ const ContactUs = () => {
                                     {/*<p className={'font-inter text-[#FFFFFF52] text-md text-start tracking-wide'}>Sales*/}
                                     {/*    Manager</p>*/}
                                 </div>
-                                {/* <div className={'rounded-lg border border-gray-400 p-2 flex flex-col'}>
-                                    <Image src={'/images/team/pallab.png'} className={'rounded-lg'} width={120}
-                                           height={200} alt={'placeholder'}/>
-                                    <p className={'font-montserrat font-semibold text-center pt-2'}>Pallab Jana</p>
-                                    <p className={'font-inter text-[#FFFFFF52] text-md text-start tracking-wide'}>Sales
-                                        Manager</p>
-                                </div> */}
+                              
 
-                                    <Image src={'/images/arrow-curve.svg'}
+                                    {/* <Image src={'/images/arrow-curve.svg'}
                                            className={'absolute right-0 invisible lg:visible lg:bottom-28 -rotate-3'}
                                            width={260}
-                                           height={200} alt={'placeholder'}/>
+                                           height={200} alt={'placeholder'}/> */}
 
                             </div>
-                            <Link href={"https://calendly.com/vermaaditya860/30min"} target={'_blank'}>
+                            <Link href={`${process.env.NEXT_PUBLIC_CALENDLY_LINK}`} target={'_blank'}>
                             <button
                                 className={'flex gap-2 justify-center items-center py-2.5 px-4 w-full bg-[#0D16FF] rounded-[10px]'}>
                                 <Image src={'/images/schedule_calendar.svg'} width={18} height={18}

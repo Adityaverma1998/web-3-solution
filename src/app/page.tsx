@@ -8,6 +8,8 @@ import Footer from '@/components/footer'
 import HeroSectionComponents from '@/components/hero-section';
 import CoinsMarquee from '@/components/coins-marquee'
 import ServiceSection from '@/components/service-section'
+import { Link, Element } from 'react-scroll';
+
 export default function Home() {
   return (
     <>
@@ -23,8 +25,9 @@ export default function Home() {
 
         </div>
         <div className={'pb-24'}>
-
+        <Element name="contact-us">
         <ContactUs />
+        </Element>
         </div>
 
         <Footer />
