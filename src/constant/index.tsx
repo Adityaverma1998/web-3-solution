@@ -22,16 +22,16 @@ export const projects: Project[] = [
     //     features: ['Verifiable Credentials', 'Blockchain', 'API Integration'], // Features
     //     readUrl: 'edublock'
     // },
-    // {
-    //     imageUrl: 'nested-brand',
-    //     projectType: 'Decentralized Talent Network',
-    //     title: 'Nested',
-    //     subtitle: '',
-    //     description: 'Nested is a decentralized talent network that enables professionals to monetize their profiles through a verified credentials and earn rewards. We worked on and developed key components like a verified credentials system using smart contracts, profile monetisation system etc. The platform features blockchain-based verification, secure wallets, and profile monetization, allowing users to earn points through networking and job searching, exchangeable to real currency.',
-    //     tech: ['Flutter', 'NextJs', 'C#', 'Dock.io', 'IIS', 'Sql Server', 'BlockChain'], // Technologies
-    //     features: ['Professional Networking', 'Blockchain', 'Smart Contracts'], // Features
-    //     readUrl: 'nested'
-    // },
+    {
+        imageUrl: 'nested-brand',
+        projectType: 'Decentralized Talent Network',
+        title: 'Nested',
+        subtitle: '',
+        description: 'Nested is a decentralized talent network that enables professionals to monetize their profiles through a verified credentials and earn rewards. We worked on and developed key components like a verified credentials system using smart contracts, profile monetisation system etc. The platform features blockchain-based verification, secure wallets, and profile monetization, allowing users to earn points through networking and job searching, exchangeable to real currency.',
+        tech: ['Flutter', 'NextJs', 'C#', 'Dock.io', 'IIS', 'Sql Server', 'BlockChain'], // Technologies
+        features: ['Professional Networking', 'Blockchain', 'Smart Contracts'], // Features
+        readUrl: 'nested'
+    },
 
     // {
     //     imageUrl: 'mcardit',
@@ -43,16 +43,16 @@ export const projects: Project[] = [
     //     features: ['ACH Transactions', 'Fraud Prevention', 'E-Commerce Integration'], // Features
     //     readUrl: 'mcardit-pg'
     // },
-    // {
-    //     imageUrl: 'greencard-brand',
-    //     projectType: 'Direct ACH Payment Solution',
-    //     title: 'Paygreen Card',
-    //     subtitle: '',
-    //     description: 'Paygreen Card provides a streamlined ACH payment solution directly connected to bank accounts using bank account tokenization enabling users to make direct payments directly from their bank accounts. With 2048-bit encryption, Paygreen Card ensures secure transactions and eliminates the need for intermediary wallets, offering a superfast, seamless and efficient payment experience.',
-    //     tech: ['NextJs', 'Flutter', 'PHP', 'NodeJs', 'AWS', 'MySql'], // Technologies
-    //     features: ['ACH Payments', 'Bank Tokenization', 'Secure Transactions'], // Features
-    //     readUrl: 'greencard'
-    // },
+    {
+        imageUrl: 'greencard-brand',
+        projectType: 'Direct ACH Payment Solution',
+        title: 'Paygreen Card',
+        subtitle: '',
+        description: 'Paygreen Card provides a streamlined ACH payment solution directly connected to bank accounts using bank account tokenization enabling users to make direct payments directly from their bank accounts. With 2048-bit encryption, Paygreen Card ensures secure transactions and eliminates the need for intermediary wallets, offering a superfast, seamless and efficient payment experience.',
+        tech: ['NextJs', 'Flutter', 'PHP', 'NodeJs', 'AWS', 'MySql'], // Technologies
+        features: ['ACH Payments', 'Bank Tokenization', 'Secure Transactions'], // Features
+        readUrl: 'https://www.paygreencard.com/'
+    },
     // {
     //     imageUrl: 'crosstower-brand',
     //     projectType: 'Comprehensive Crypto Platform',
@@ -71,7 +71,7 @@ export const projects: Project[] = [
         description: 'Gold has long been a symbol of wealth and a hedge against economic instability. However, traditional gold ownership involves challenges such as storage, security and liquidity. Goldy Token leverages blockchain technology to address these issues, providing a digital representation of gold that is secure, transparent and easily tradable. Backed by physical gold bars, Goldy Token offers a reliable investment option that merges the timeless value of gold with the modern efficiency of digital assets.',
         tech: ['NextJs', 'NodeJs', 'Solidity', 'AWS', 'MySql', 'Blockchain'], // Technologies
         features: ['Gold-Backed Tokens', 'Multi-Currency Purchase', 'Tokens Presales', 'Physical Gold Redemption'], // Features
-        readUrl: 'goldy'
+        readUrl: 'https://goldytoken.com/'
     },
     //  {
     //     imageUrl: 'maa-laxmi-brand',
