@@ -22,16 +22,16 @@ export const projects: Project[] = [
     //     features: ['Verifiable Credentials', 'Blockchain', 'API Integration'], // Features
     //     readUrl: 'edublock'
     // },
-    {
-        imageUrl: 'nested-brand',
-        projectType: 'Decentralized Talent Network',
-        title: 'Nested',
-        subtitle: '',
-        description: 'Nested is a decentralized talent network that enables professionals to monetize their profiles through a verified credentials and earn rewards. We worked on and developed key components like a verified credentials system using smart contracts, profile monetisation system etc. The platform features blockchain-based verification, secure wallets, and profile monetization, allowing users to earn points through networking and job searching, exchangeable to real currency.',
-        tech: ['Flutter', 'NextJs', 'C#', 'Dock.io', 'IIS', 'Sql Server', 'BlockChain'], // Technologies
-        features: ['Professional Networking', 'Blockchain', 'Smart Contracts'], // Features
-        readUrl: 'nested'
-    },
+    // {
+    //     imageUrl: 'nested-brand',
+    //     projectType: 'Decentralized Talent Network',
+    //     title: 'Nested',
+    //     subtitle: '',
+    //     description: 'Nested is a decentralized talent network that enables professionals to monetize their profiles through a verified credentials and earn rewards. We worked on and developed key components like a verified credentials system using smart contracts, profile monetisation system etc. The platform features blockchain-based verification, secure wallets, and profile monetization, allowing users to earn points through networking and job searching, exchangeable to real currency.',
+    //     tech: ['Flutter', 'NextJs', 'C#', 'Dock.io', 'IIS', 'Sql Server', 'BlockChain'], // Technologies
+    //     features: ['Professional Networking', 'Blockchain', 'Smart Contracts'], // Features
+    //     readUrl: 'nested'
+    // },
 
     // {
     //     imageUrl: 'mcardit',
