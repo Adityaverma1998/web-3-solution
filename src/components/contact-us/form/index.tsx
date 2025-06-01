@@ -285,9 +285,9 @@ const ContactUsForm = (props: any) => {
                 <div className={'col-span-2'}>
 
                     <div className={'flex w-full flex-1 justify-end py-2 z-50'}>
-                        <Image src={'/images/team/pallab.png'} className={'relative rounded-full left-4 z-0'} width={48}
+                        {/* <Image src={'/images/team/pallab.png'} className={'relative rounded-full left-4 z-0'} width={48}
                                height={48}
-                               alt={'profile'}/>
+                               alt={'profile'}/> */}
                         <Image src={'/images/team/omar.png'} width={48} height={48} className={'rounded-full z-10'}
                                alt={'profile'}/>
                     </div>

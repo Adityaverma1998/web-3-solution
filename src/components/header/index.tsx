@@ -1,13 +1,20 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const navItems: string[] = ['Service', 'Industries', 'Cases', 'Company', 'Contacts'];
 
 const Logo = () => (
-  <div>
-    <h2 className="text-2xl font-bold">Web3 Solutions</h2>
-  </div>
+  <div className="relative w-40 h-40"> {/* Example fixed size */}
+  <Image
+    src="/logo.svg"
+    alt="lock"
+    fill
+    style={{ objectFit: 'contain' }} // or 'cover'
+  />
+</div>
+
 );
 
 const Header = () => {

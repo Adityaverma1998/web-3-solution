@@ -80,9 +80,11 @@ const blockchainlist: string[] = [
 ]
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer className="py-6 ">
-            <SocialMedia />
+            {/* <SocialMedia />
             <div className={'p-1 lg:p-3 w-full flex flex-col  lg:flex-row justify-between '}>
             <HeadingAndPara heading={"Blockchain"} paraList={blockchainlist} />
             <HeadingAndPara heading={"Blockchain"} paraList={blockchainlist} />
@@ -93,8 +95,11 @@ const Footer = () => {
 
 
             </div>
-            <hr className=" h-0.5 border-t-0 bg-[#313131]" />
+            <hr className=" h-0.5 border-t-0 bg-[#313131]" /> */}
 
+            <footer className="w-full text-center py-4 border-t  text-sm text-gray-600">
+                &copy; {currentYear} <span className="font-semibold">Nextattvalabs</span>. All rights reserved.
+            </footer>
         </footer>
     );
 };

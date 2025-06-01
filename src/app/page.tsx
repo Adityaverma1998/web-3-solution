@@ -16,7 +16,7 @@ export default function Home() {
         <HeroSectionComponents/>
         <ProjectElement />
         <CoinsMarquee/>
-        <ServiceSection/>
+        {/* <ServiceSection/> */}
         <div className={'pb-24'}>
 
         <OurTechStack techStack={techStack} />
