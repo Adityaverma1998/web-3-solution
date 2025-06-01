@@ -42,15 +42,15 @@ const chains: ICoinsWithname[] = [
 const CoinsMarquee = () => {
   return (
     <section className="py-10">
-      <div className="text-center mb-6">
-        <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-          Supported Chains
-        </h2>
-        <p className="text-gray-400 text-sm md:text-base">
-          Lorem ipsum dolor sit amet consectetur. Et ornare vel ac.
-        </p>
-      </div>
-      <Marquee pauseOnHover gradient={false} speed={40} direction="right"> 
+        <div className="text-center mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+                Supported Chains
+            </h2>
+            <p className="text-gray-400 text-sm md:text-base">
+                Explore a wide range of blockchain networks seamlessly integrated into our platform.
+            </p>
+        </div>
+        <Marquee pauseOnHover gradient={false} speed={40} direction="right">
         <div className="flex gap-6 px-4">
           {chains.map((coin) => (
             <CoinsWithname

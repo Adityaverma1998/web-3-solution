@@ -5,7 +5,11 @@ import Image from 'next/image';
 import { Link, Element } from 'react-scroll';
 
 
-const navItems: string[] = ['Service', 'Industries', 'Cases', 'Company', 'Contacts'];
+const navItems = [
+  { title: 'Projects', href: 'projects' },
+  { title: 'Technology', href: 'technology' },
+  { title: 'About Company', href: 'company' },
+];
 
 const Logo = () => (
   <div className="relative w-40 h-40"> {/* Example fixed size */}
@@ -48,9 +52,17 @@ const Header = () => {
         <nav className="flex items-center gap-6">
           <ul className="flex gap-6 text-sm font-medium">
             {navItems.map((item, index) => (
-              <li key={index} className="hover:text-blue-600 cursor-pointer">
-                {item}
-              </li>
+                <li key={index}>
+                  <Link
+                      to={item.href}
+                      smooth={true}
+                      duration={500}
+                      offset={10}
+                      className="hover:text-blue-600 cursor-pointer"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
             ))}
           </ul>
           <Link to="contact-us" smooth={true} duration={500}       offset={10} 
@@ -76,11 +88,19 @@ const Header = () => {
           <button className="self-end" onClick={toggleMenu}>
             <X size={24} />
           </button>
-          <ul className="flex flex-col gap-4 text-lg font-medium">
+          <ul className="flex gap-6 text-sm font-medium">
             {navItems.map((item, index) => (
-              <li key={index} className="hover:text-blue-600 cursor-pointer">
-                {item}
-              </li>
+                <li key={index}>
+                  <Link
+                      to={item.href}
+                      smooth={true}
+                      duration={500}
+                      offset={10}
+                      className="hover:text-blue-600 cursor-pointer"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
             ))}
           </ul>
           <Link to="contact-us" smooth={true} duration={500}>

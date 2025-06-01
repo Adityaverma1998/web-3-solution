@@ -15,14 +15,18 @@ export default function Home() {
     <>
       <div className={'px-12 overflow-x-hidden'}>
         <Header />
-        <HeroSectionComponents/>
-        <ProjectElement />
+        <Element name="company">
+          <HeroSectionComponents/>
+        </Element>
+        <Element name="projects">
+          <ProjectElement />
+        </Element>
         <CoinsMarquee/>
         {/* <ServiceSection/> */}
         <div className={'pb-24'}>
-
-        <OurTechStack techStack={techStack} />
-
+          <Element name="technology">
+            <OurTechStack techStack={techStack} />
+          </Element>
         </div>
         <div className={'pb-24'}>
         <Element name="contact-us">
