@@ -13,7 +13,7 @@ import { Link, Element } from 'react-scroll';
 export default function Home() {
   return (
     <>
-      <div className={'px-12 overflow-x-hidden'}>
+      <div className={'px-2 md:px-8 lg:px-12 overflow-x-hidden'}>
         <Header />
         <Element name="company">
           <HeroSectionComponents/>

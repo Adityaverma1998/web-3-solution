@@ -369,7 +369,7 @@ const ContactUsForm = (props: any) => {
                                         return true;
                                     }
                                 }}
-                                country={'in'}
+                                country={'us'}
                                 countryCodeEditable={false}
                                 // preferredCountries={['in', 'us']}
                                 // onlyCountries={['in', 'us']}
@@ -392,7 +392,7 @@ const ContactUsForm = (props: any) => {
                                     marginTop: '0.5rem',
                                     width: '100%',
                                     color :'#FFFFFFB2 !important',
-                                    backgroundColor: '#FFFFFF26 !important'
+                                    // backgroundColor: '#FFFFFF26 !important'
                                 }}
                             />
 
