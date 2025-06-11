@@ -39,19 +39,44 @@ const ContactUs = () => {
                             className={'flex-col md:flex-row justify-center md:py-8  max-w-max'}>
                             <div className={'pb-2 flex gap-2 w-fit justify-center' }>
                                 <div className={'rounded-lg border border-gray-400 p-2 flex flex-col'}>
-                                    <Image src={'/images/team/omar.png'} className={'rounded-lg'} width={120}
-                                           height={200} alt={'placeholder'}/>
+                                    <a
+                                        href="https://www.linkedin.com/in/omarkhanglobal/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <Image
+                                            src={'/images/team/omar.jpg'}
+                                            className={'rounded-lg object-cover'}
+                                            width={120}
+                                            height={200}
+                                            alt={'Omar Khan'}
+                                        />
+                                    </a>
                                     <p className={'font-montserrat font-semibold text-center pt-2'}>Omar Khan</p>
-                                    {/*<p className={'font-inter text-[#FFFFFF52] text-md text-start tracking-wide'}>Sales*/}
-                                    {/*    Manager</p>*/}
+                                    <p className={'font-inter text-[#FFFFFF52] text-md text-center tracking-wide'}>
+                                        Solution Architect
+                                    </p>
                                 </div>
-                              
 
-                                    {/* <Image src={'/images/arrow-curve.svg'}
-                                           className={'absolute right-0 invisible lg:visible lg:bottom-28 -rotate-3'}
-                                           width={260}
-                                           height={200} alt={'placeholder'}/> */}
-
+                                <div className={'rounded-lg border border-gray-400 p-2 flex flex-col'}>
+                                    <a
+                                        href="https://www.linkedin.com/in/badalalive/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <Image
+                                            src={'/images/team/badal.png'}
+                                            className={'rounded-lg object-cover'}
+                                            width={120}
+                                            height={200}
+                                            alt={'Badal Gupta'}
+                                        />
+                                    </a>
+                                    <p className={'font-montserrat font-semibold text-center pt-2'}>Badal Gupta</p>
+                                    <p className={'font-inter text-[#FFFFFF52] text-md text-center tracking-wide'}>
+                                        Tech Head
+                                    </p>
+                                </div>
                             </div>
                             <Link href={`${process.env.NEXT_PUBLIC_CALENDLY_LINK}`} target={'_blank'}>
                             <button
