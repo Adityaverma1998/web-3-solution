@@ -12,10 +12,10 @@ const navItems = [
 ];
 
 const Logo = () => (
-  <div className="relative w-40 h-40"> {/* Example fixed size */}
+  <div className="relative w-25 h-20"> {/* Example fixed size */}
   <Image
-    src="/logo.svg"
-    alt="lock"
+    src="/logo.png"
+    alt="brand_logo"
     fill
     style={{ objectFit: 'contain' }} // or 'cover'
   />
