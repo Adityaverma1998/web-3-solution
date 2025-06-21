@@ -12,17 +12,16 @@ const navItems = [
 ];
 
 const Logo = () => (
-  <div className="relative w-25 h-20"> {/* Example fixed size */}
-  <Image
-    src="/logo.png"
-    alt="brand_logo"
-    fill
-    style={{ objectFit: 'contain' }} // or 'cover'
-  />
-</div>
-
+    <div className="relative w-32 h-12 sm:w-40 sm:h-14 lg:w-48 lg:h-16">
+      <Image
+          src="/logo.png"
+          alt="brand_logo"
+          fill
+          className="object-contain"
+          priority
+      />
+    </div>
 );
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -44,7 +43,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <header className="relative z-50 flex items-center justify-between px-4 py-4 lg:px-12">
+    <header className="relative z-50 flex items-center justify-between py-4">
       <Logo />
 
       {/* Desktop Nav */}
@@ -88,7 +87,7 @@ const Header = () => {
           <button className="self-end" onClick={toggleMenu}>
             <X size={24} />
           </button>
-          <ul className="flex gap-6 text-sm font-medium">
+          <ul className="flex flex-col gap-6 text-sm font-medium">
             {navItems.map((item, index) => (
                 <li key={index}>
                   <Link

@@ -83,7 +83,7 @@ const ContactUs = () => {
                                 className={'flex gap-2 justify-center items-center py-2.5 px-4 w-full bg-[#0D16FF] rounded-[10px]'}>
                                 <Image src={'/images/schedule_calendar.svg'} width={18} height={18}
                                        alt={'placeholder'}/>
-                                <span className={'text-sm'}>    Schedule on Calendly </span>
+                                <span className={'text-sm'}>Book a Free Strategy Call</span>
                             </button>
                             </Link>
 
