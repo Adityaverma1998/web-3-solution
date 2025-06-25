@@ -44,6 +44,16 @@ export const projects: Project[] = [
     //     readUrl: 'mcardit-pg'
     // },
     {
+        imageUrl: 'goldy',
+        projectType: 'Digital token backed by physical gold.',
+        title: 'Goldy',
+        subtitle: '',
+        description: 'Gold has long been a symbol of wealth and a hedge against economic instability. However, traditional gold ownership involves challenges such as storage, security and liquidity. Goldy Token leverages blockchain technology to address these issues, providing a digital representation of gold that is secure, transparent and easily tradable. Backed by physical gold bars, Goldy Token offers a reliable investment option that merges the timeless value of gold with the modern efficiency of digital assets.',
+        tech: ['NextJs', 'NodeJs', 'Solidity', 'AWS', 'MySql', 'Blockchain'], // Technologies
+        features: ['Gold-Backed Tokens', 'Multi-Currency Purchase', 'Tokens Presales', 'Physical Gold Redemption'], // Features
+        readUrl: 'https://goldytoken.com/'
+    },
+    {
         imageUrl: 'greencard-brand',
         projectType: 'Direct ACH Payment Solution',
         title: 'Paygreen Card',
@@ -63,16 +73,6 @@ export const projects: Project[] = [
     //     features: ['Cryptocurrency', 'Blockchain', 'Trading'], // Features
     //     readUrl: 'crosstower'
     // },
-    {
-        imageUrl: 'goldy',
-        projectType: 'Digital token backed by physical gold.',
-        title: 'Goldy',
-        subtitle: '',
-        description: 'Gold has long been a symbol of wealth and a hedge against economic instability. However, traditional gold ownership involves challenges such as storage, security and liquidity. Goldy Token leverages blockchain technology to address these issues, providing a digital representation of gold that is secure, transparent and easily tradable. Backed by physical gold bars, Goldy Token offers a reliable investment option that merges the timeless value of gold with the modern efficiency of digital assets.',
-        tech: ['NextJs', 'NodeJs', 'Solidity', 'AWS', 'MySql', 'Blockchain'], // Technologies
-        features: ['Gold-Backed Tokens', 'Multi-Currency Purchase', 'Tokens Presales', 'Physical Gold Redemption'], // Features
-        readUrl: 'https://goldytoken.com/'
-    },
     //  {
     //     imageUrl: 'maa-laxmi-brand',
     //     projectType: 'L2 Blockchain based on OP-Stack',
